@@ -20,6 +20,7 @@
 		8781A9D71CB5610500015E8C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9D61CB5610500015E8C /* LoginController.swift */; };
 		8781A9DA1CBBF39A00015E8C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9D91CBBF39A00015E8C /* ChatViewController.swift */; };
 		8781A9DC1CBBF83B00015E8C /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9DB1CBBF83B00015E8C /* ChatListViewController.swift */; };
+		8781A9DF1CBD469D00015E8C /* ChatRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9DE1CBD469D00015E8C /* ChatRoomListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8781A9D61CB5610500015E8C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		8781A9D91CBBF39A00015E8C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		8781A9DB1CBBF83B00015E8C /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		8781A9DE1CBD469D00015E8C /* ChatRoomListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		8781A99F1CB55C8100015E8C /* WhatchaIphone */ = {
 			isa = PBXGroup;
 			children = (
+				8781A9DD1CBD467B00015E8C /* Cell */,
 				8781A9D81CB567DC00015E8C /* controller */,
 				8781A9D51CB560DF00015E8C /* view */,
 				8781A9CE1CB55C8800015E8C /* resources */,
@@ -165,6 +168,14 @@
 				8781A9DB1CBBF83B00015E8C /* ChatListViewController.swift */,
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		8781A9DD1CBD467B00015E8C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8781A9DE1CBD469D00015E8C /* ChatRoomListCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8781A9DF1CBD469D00015E8C /* ChatRoomListCell.swift in Sources */,
 				8781A9D71CB5610500015E8C /* LoginController.swift in Sources */,
 				8781A9A31CB55C8100015E8C /* StartController.swift in Sources */,
 				8781A9DA1CBBF39A00015E8C /* ChatViewController.swift in Sources */,
