@@ -88,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8776A5821CBD5E790072F483 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
 		8781A9941CB55C8100015E8C = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +118,7 @@
 		8781A99F1CB55C8100015E8C /* WhatchaIphone */ = {
 			isa = PBXGroup;
 			children = (
+				8776A5821CBD5E790072F483 /* resource */,
 				8781A9DD1CBD467B00015E8C /* Cell */,
 				8781A9D81CB567DC00015E8C /* controller */,
 				8781A9D51CB560DF00015E8C /* view */,

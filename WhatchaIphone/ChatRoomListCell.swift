@@ -17,11 +17,12 @@ class ChatRoomListCell : UITableViewCell{
     @IBOutlet weak var roomLastUpdateTime: UILabel!
     
     override func awakeFromNib() {
-        roomTitleImage.layer.cornerRadius = 50.0
-        roomTitleImage.layer.masksToBounds = true
+                super.awakeFromNib()
+//        roomTitleImage.layer.cornerRadius = 50.0
+//        roomTitleImage.layer.masksToBounds = true
     }
     
     override func setSelected(selected: Bool, animated: Bool) {
-
+        super.setSelected(selected, animated: animated)
     }
 }
