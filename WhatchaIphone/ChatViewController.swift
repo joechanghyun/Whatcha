@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Chatto
+import ChattoAdditions
 
-class ChatViewController: UIViewController {
+class ChatViewController: ChatViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
