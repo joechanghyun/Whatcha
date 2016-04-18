@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/ChatListViewController.swift"
+            timestampString = "482166186.717945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ChatListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.ChatListViewController.init (WhatchaIphone.ChatListViewController.Type)(style : __C.UITableViewStyle) -&gt; WhatchaIphone.ChatListViewController"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/ChatListViewController.swift"
+                  timestampString = "482170592.035603"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.ChatListViewController.init (WhatchaIphone.ChatListViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; WhatchaIphone.ChatListViewController"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/ChatListViewController.swift"
+                  timestampString = "482170592.035872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.ChatListViewController.init (WhatchaIphone.ChatListViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WhatchaIphone.ChatListViewController&gt;"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/ChatListViewController.swift"
+                  timestampString = "482170592.03612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,134 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--Chat List View Controller-->
-        <scene sceneID="eUd-rg-8PJ">
+        <!--Root View Controller-->
+        <scene sceneID="RT3-nE-Cm7">
             <objects>
-                <viewController id="gqS-SR-70v" customClass="ChatListViewController" customModule="WhatchaIphone" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="HNg-8D-xPq"/>
-                        <viewControllerLayoutGuide type="bottom" id="KuB-C2-6L2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FP2-iH-YOQ">
+                <tableViewController id="UKJ-ab-lTw" customClass="ChatListViewController" customModule="WhatchaIphone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="56" sectionHeaderHeight="28" sectionFooterHeight="28" id="V2K-Ta-7yl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvP-TH-EOi">
-                                <rect key="frame" x="288" y="9" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="            Whatcha ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3l-oD-Pfn">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
-                                <color key="backgroundColor" red="0.12941176469999999" green="0.4941176471" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2QN-ur-vGY">
-                                <rect key="frame" x="8" y="9" width="30" height="30"/>
-                                <state key="normal" title="=">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7m-U6-ofd">
-                                <rect key="frame" x="306" y="10" width="30" height="30"/>
-                                <state key="normal" title="검색">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uMd-mj-4pi">
-                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatRoomListCustomCell" rowHeight="56" id="Nor-mf-aMF" customClass="ChatRoomListCell" customModule="WhatchaIphone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="56"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nor-mf-aMF" id="mPN-eD-t2f">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="55.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zx0-EK-g1r">
+                                            <rect key="frame" x="8" y="0.0" width="52" height="54"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="조창현 매니져:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyc-oh-mNS">
+                                            <rect key="frame" x="69" y="29" width="82" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.10980392156862745" green="0.40784313725490196" blue="0.7686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오후 7:03" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAO-HJ-1x6">
+                                            <rect key="frame" x="312" y="-3" width="55" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WP SysOper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCu-YP-CVl">
+                                            <rect key="frame" x="69" y="5" width="97" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="블라블라블라블라블라블라" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fq-66-mhI">
+                                            <rect key="frame" x="147" y="29" width="210" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="roomLastChatContent" destination="2fq-66-mhI" id="hhw-9X-aUQ"/>
+                                    <outlet property="roomLastChatter" destination="dyc-oh-mNS" id="pSQ-ui-d5T"/>
+                                    <outlet property="roomLastUpdateTime" destination="BAO-HJ-1x6" id="Arz-Tk-Gwl"/>
+                                    <outlet property="roomTitle" destination="xCu-YP-CVl" id="GtY-7X-d5e"/>
+                                    <outlet property="roomTitleImage" destination="Zx0-EK-g1r" id="E0T-AY-EFw"/>
+                                    <segue destination="FZS-zj-R8L" kind="show" id="dGT-dK-7yy"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UKJ-ab-lTw" id="sLx-By-fmt"/>
+                            <outlet property="delegate" destination="UKJ-ab-lTw" id="5el-oC-vds"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Ace-3N-Ku2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="coh-gv-XtT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fta-rq-e1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222.5" y="-1062.5"/>
+            <point key="canvasLocation" x="-198.5" y="-242.5"/>
         </scene>
-        <!--Chat-->
-        <scene sceneID="YLt-hh-HKN">
+        <!--Chat View Controller-->
+        <scene sceneID="whG-p5-AGR">
             <objects>
-                <viewController id="6qb-I1-564" customClass="ChatViewController" customModule="WhatchaIphone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FZS-zj-R8L" customClass="ChatViewController" customModule="WhatchaIphone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="f0h-fV-7on"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cr7-2I-NEC"/>
+                        <viewControllerLayoutGuide type="top" id="TMr-4y-RC7"/>
+                        <viewControllerLayoutGuide type="bottom" id="OOD-ER-Mzr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="O4W-f5-MQ5">
+                    <view key="view" contentMode="scaleToFill" id="4Hj-iz-7oP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rWY-ac-slq">
-                                <rect key="frame" x="52" y="612" width="269" height="55"/>
-                                <color key="backgroundColor" red="0.9803922176361084" green="0.9803922176361084" blue="0.93725496530532837" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R13-0V-6aI">
-                                <rect key="frame" x="323" y="612" width="52" height="55"/>
-                                <color key="backgroundColor" red="0.12941176470588237" green="0.49411764705882355" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="전송">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcB-hd-615">
-                                <rect key="frame" x="0.0" y="612" width="52" height="55.5"/>
-                                <state key="normal" title="iCon"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                       " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59I-cC-kuG">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
-                                <color key="backgroundColor" red="0.12941176469999999" green="0.4941176471" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Xb-VH-t1g">
-                                <rect key="frame" x="327" y="0.0" width="45" height="48"/>
-                                <state key="normal" title=":">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number of Chatter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzt-B7-HmG">
-                                <rect key="frame" x="95" y="24" width="144" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chatting room name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCo-Sv-whp">
-                                <rect key="frame" x="95" y="3" width="156" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwe-8A-bY4">
-                                <rect key="frame" x="43" y="0.0" width="49" height="48"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcH-EX-q5t">
-                                <rect key="frame" x="0.0" y="0.0" width="45" height="48"/>
-                                <state key="normal" title="&lt;-">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Wu-gB-VVd">
-                                <rect key="frame" x="0.0" y="52" width="375" height="562"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Chat" id="PfA-Ls-sCj"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sbs-JK-AsY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5N-Zz-i6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="648.5" y="-1062.5"/>
+            <point key="canvasLocation" x="236.5" y="-242.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RSk-6L-vVI">
+            <objects>
+                <navigationController id="lNb-KU-L9B" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Plk-1e-9j7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UKJ-ab-lTw" kind="relationship" relationship="rootViewController" id="uqK-iv-qxe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYt-Y7-50U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-645.5" y="-242.5"/>
         </scene>
         <!--Login-->
         <scene sceneID="9Wm-kl-jHq">
@@ -198,7 +176,7 @@
                                     <color key="titleShadowColor" red="0.17974085070000001" green="0.31481845040000001" blue="0.49642913509999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gqS-SR-70v" kind="presentation" id="ioc-Wx-sZl"/>
+                                    <segue destination="UKJ-ab-lTw" kind="presentation" id="xdW-dv-jI7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -249,7 +227,7 @@
                                     <color key="titleShadowColor" red="0.17974085073140653" green="0.31481845036804174" blue="0.49642913510101006" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QYn-2F-TyM" kind="presentation" id="nXu-Pe-zw9"/>
+                                    <segue destination="QYn-2F-TyM" kind="presentation" id="EgP-pK-oDQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -266,4 +244,7 @@
     <resources>
         <image name="JTPK288.jpg" width="638" height="878"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xdW-dv-jI7"/>
+    </inferredMetricsTieBreakers>
 </document>
