@@ -19,9 +19,19 @@
 		8781A9D21CB55D1200015E8C /* 세돌아...내가복수해줄께_files in Resources */ = {isa = PBXBuildFile; fileRef = 8781A9D11CB55D1200015E8C /* 세돌아...내가복수해줄께_files */; };
 		8781A9D41CB55D3400015E8C /* JTPK288.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8781A9D31CB55D3400015E8C /* JTPK288.jpg */; };
 		8781A9D71CB5610500015E8C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9D61CB5610500015E8C /* LoginController.swift */; };
-		8781A9DA1CBBF39A00015E8C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9D91CBBF39A00015E8C /* ChatViewController.swift */; };
+		8781A9DA1CBBF39A00015E8C /* WhatchaChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9D91CBBF39A00015E8C /* WhatchaChatViewController.swift */; };
 		8781A9DC1CBBF83B00015E8C /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9DB1CBBF83B00015E8C /* ChatListViewController.swift */; };
 		8781A9DF1CBD469D00015E8C /* ChatRoomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9DE1CBD469D00015E8C /* ChatRoomListCell.swift */; };
+		87CF8FF91CC4BC7200964C48 /* WhatchaChatItemsDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF8FF81CC4BC7200964C48 /* WhatchaChatItemsDecorator.swift */; };
+		87CF8FFC1CC4BD3800964C48 /* SendingStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF8FFB1CC4BD3800964C48 /* SendingStatusModel.swift */; };
+		87CF8FFE1CC4BD5700964C48 /* SendingStatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF8FFD1CC4BD5700964C48 /* SendingStatusCollectionViewCell.swift */; };
+		87CF90001CC4BF9500964C48 /* SendingStatusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CF8FFF1CC4BF9500964C48 /* SendingStatusCollectionViewCell.xib */; };
+		87CF90021CC529A600964C48 /* UserActionHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF90011CC529A600964C48 /* UserActionHandlers.swift */; };
+		87CF90041CC529CE00964C48 /* FakeMessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF90031CC529CE00964C48 /* FakeMessageSender.swift */; };
+		87CF90061CC529FF00964C48 /* FakeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF90051CC529FF00964C48 /* FakeDataSource.swift */; };
+		87CF90081CC52A2800964C48 /* FakeMessageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF90071CC52A2800964C48 /* FakeMessageFactory.swift */; };
+		87CF900A1CC52AD000964C48 /* SlidingDatasSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF90091CC52AD000964C48 /* SlidingDatasSource.swift */; };
+		87CF900C1CC52B1C00964C48 /* FakePhotoMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF900B1CC52B1C00964C48 /* FakePhotoMessageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +69,19 @@
 		8781A9D11CB55D1200015E8C /* 세돌아...내가복수해줄께_files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "세돌아...내가복수해줄께_files"; path = "../../../../Pictures/세돌아...내가복수해줄께_files"; sourceTree = "<group>"; };
 		8781A9D31CB55D3400015E8C /* JTPK288.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JTPK288.jpg; path = ../../../../Pictures/JTPK288.jpg; sourceTree = "<group>"; };
 		8781A9D61CB5610500015E8C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		8781A9D91CBBF39A00015E8C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8781A9D91CBBF39A00015E8C /* WhatchaChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatchaChatViewController.swift; sourceTree = "<group>"; };
 		8781A9DB1CBBF83B00015E8C /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		8781A9DE1CBD469D00015E8C /* ChatRoomListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomListCell.swift; sourceTree = "<group>"; };
+		87CF8FF81CC4BC7200964C48 /* WhatchaChatItemsDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatchaChatItemsDecorator.swift; sourceTree = "<group>"; };
+		87CF8FFB1CC4BD3800964C48 /* SendingStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingStatusModel.swift; sourceTree = "<group>"; };
+		87CF8FFD1CC4BD5700964C48 /* SendingStatusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingStatusCollectionViewCell.swift; sourceTree = "<group>"; };
+		87CF8FFF1CC4BF9500964C48 /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendingStatusCollectionViewCell.xib; sourceTree = "<group>"; };
+		87CF90011CC529A600964C48 /* UserActionHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActionHandlers.swift; sourceTree = "<group>"; };
+		87CF90031CC529CE00964C48 /* FakeMessageSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMessageSender.swift; sourceTree = "<group>"; };
+		87CF90051CC529FF00964C48 /* FakeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDataSource.swift; sourceTree = "<group>"; };
+		87CF90071CC52A2800964C48 /* FakeMessageFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMessageFactory.swift; sourceTree = "<group>"; };
+		87CF90091CC52AD000964C48 /* SlidingDatasSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingDatasSource.swift; sourceTree = "<group>"; };
+		87CF900B1CC52B1C00964C48 /* FakePhotoMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakePhotoMessageViewModel.swift; sourceTree = "<group>"; };
 		8E7E54EDA209A72F8D6F5C0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A78736D976BC56B5BA4DD4BF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EC5E24E109702BF1005030 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +157,7 @@
 				8776A5821CBD5E790072F483 /* resource */,
 				8781A9DD1CBD467B00015E8C /* Cell */,
 				8781A9D81CB567DC00015E8C /* controller */,
-				8781A9D51CB560DF00015E8C /* view */,
+				8781A9D51CB560DF00015E8C /* Custom Items */,
 				8781A9CE1CB55C8800015E8C /* resources */,
 				8781A9A01CB55C8100015E8C /* AppDelegate.swift */,
 				8781A9A41CB55C8100015E8C /* Main.storyboard */,
@@ -176,11 +196,12 @@
 			name = resources;
 			sourceTree = "<group>";
 		};
-		8781A9D51CB560DF00015E8C /* view */ = {
+		8781A9D51CB560DF00015E8C /* Custom Items */ = {
 			isa = PBXGroup;
 			children = (
+				87CF8FFA1CC4BD1E00964C48 /* Sending status */,
 			);
-			name = view;
+			name = "Custom Items";
 			sourceTree = "<group>";
 		};
 		8781A9D81CB567DC00015E8C /* controller */ = {
@@ -188,8 +209,15 @@
 			children = (
 				8781A9A21CB55C8100015E8C /* StartController.swift */,
 				8781A9D61CB5610500015E8C /* LoginController.swift */,
-				8781A9D91CBBF39A00015E8C /* ChatViewController.swift */,
+				8781A9D91CBBF39A00015E8C /* WhatchaChatViewController.swift */,
 				8781A9DB1CBBF83B00015E8C /* ChatListViewController.swift */,
+				87CF8FF81CC4BC7200964C48 /* WhatchaChatItemsDecorator.swift */,
+				87CF90011CC529A600964C48 /* UserActionHandlers.swift */,
+				87CF90031CC529CE00964C48 /* FakeMessageSender.swift */,
+				87CF90051CC529FF00964C48 /* FakeDataSource.swift */,
+				87CF90071CC52A2800964C48 /* FakeMessageFactory.swift */,
+				87CF90091CC52AD000964C48 /* SlidingDatasSource.swift */,
+				87CF900B1CC52B1C00964C48 /* FakePhotoMessageViewModel.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -200,6 +228,16 @@
 				8781A9DE1CBD469D00015E8C /* ChatRoomListCell.swift */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		87CF8FFA1CC4BD1E00964C48 /* Sending status */ = {
+			isa = PBXGroup;
+			children = (
+				87CF8FFB1CC4BD3800964C48 /* SendingStatusModel.swift */,
+				87CF8FFD1CC4BD5700964C48 /* SendingStatusCollectionViewCell.swift */,
+				87CF8FFF1CC4BF9500964C48 /* SendingStatusCollectionViewCell.xib */,
+			);
+			name = "Sending status";
 			sourceTree = "<group>";
 		};
 		FC159BC2DD82F64DF8F8823E /* Frameworks */ = {
@@ -317,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CF90001CC4BF9500964C48 /* SendingStatusCollectionViewCell.xib in Resources */,
 				8781A9AB1CB55C8100015E8C /* LaunchScreen.storyboard in Resources */,
 				8781A9D41CB55D3400015E8C /* JTPK288.jpg in Resources */,
 				8781A9A81CB55C8100015E8C /* Assets.xcassets in Resources */,
@@ -395,12 +434,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87CF8FFC1CC4BD3800964C48 /* SendingStatusModel.swift in Sources */,
 				8781A9DF1CBD469D00015E8C /* ChatRoomListCell.swift in Sources */,
+				87CF8FFE1CC4BD5700964C48 /* SendingStatusCollectionViewCell.swift in Sources */,
 				8781A9D71CB5610500015E8C /* LoginController.swift in Sources */,
 				8781A9A31CB55C8100015E8C /* StartController.swift in Sources */,
-				8781A9DA1CBBF39A00015E8C /* ChatViewController.swift in Sources */,
+				87CF90061CC529FF00964C48 /* FakeDataSource.swift in Sources */,
+				87CF900C1CC52B1C00964C48 /* FakePhotoMessageViewModel.swift in Sources */,
+				8781A9DA1CBBF39A00015E8C /* WhatchaChatViewController.swift in Sources */,
+				87CF900A1CC52AD000964C48 /* SlidingDatasSource.swift in Sources */,
 				8781A9A11CB55C8100015E8C /* AppDelegate.swift in Sources */,
 				8781A9DC1CBBF83B00015E8C /* ChatListViewController.swift in Sources */,
+				87CF8FF91CC4BC7200964C48 /* WhatchaChatItemsDecorator.swift in Sources */,
+				87CF90021CC529A600964C48 /* UserActionHandlers.swift in Sources */,
+				87CF90081CC52A2800964C48 /* FakeMessageFactory.swift in Sources */,
+				87CF90041CC529CE00964C48 /* FakeMessageSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
