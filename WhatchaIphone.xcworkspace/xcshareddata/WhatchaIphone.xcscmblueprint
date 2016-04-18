@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D5A53B08E99BC75945BE0D038354EB5AB6000A01",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C0C8F0E3F5D61D9ACD8E25BAD256756FDB83FB31" : 0,
+    "D5A53B08E99BC75945BE0D038354EB5AB6000A01" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "49E15BE8-F638-4CEF-AFBE-54423C34DCE5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C0C8F0E3F5D61D9ACD8E25BAD256756FDB83FB31" : "Chatto\/",
+    "D5A53B08E99BC75945BE0D038354EB5AB6000A01" : "WhatchaIphone\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WhatchaIphone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WhatchaIphone.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joechanghyun\/Chatto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0C8F0E3F5D61D9ACD8E25BAD256756FDB83FB31"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/wavold\/whatcha_iphone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5A53B08E99BC75945BE0D038354EB5AB6000A01"
+    }
+  ]
+}
