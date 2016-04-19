@@ -8,7 +8,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="j0j-Mn-Wsr">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="j0j-Mn-Wsr" customClass="SendingStatusCollectionViewCell" customModule="WhatchaIphone" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="278" height="50"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -35,6 +35,9 @@
                     <exclude reference="AQn-4e-aud"/>
                 </mask>
             </variation>
+            <connections>
+                <outlet property="label" destination="b6I-lo-13e" id="DZy-a1-y40"/>
+            </connections>
             <point key="canvasLocation" x="130" y="141"/>
         </collectionViewCell>
     </objects>

@@ -13,9 +13,6 @@ class ChatListViewController : UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-  
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,6 +34,25 @@ class ChatListViewController : UITableViewController{
         cell.roomLastChatContent.text = "대화 내용 블라블라 블라블라 ..."
         
         return cell
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var initialCount = 0
+        let pageSize = 50
+        
+        var dataSource: FakeDataSource!
+        if segue.identifier == "list0" {
+            initialCount = 0
+        } else {
+            assert(false, "segue not handled!")
+        }
+        
+        let chatController = segue.destinationViewController as! WhatchaChatViewController
+        if dataSource == nil {
+            dataSource = FakeDataSource(count: initialCount, pageSize: pageSize)
+        }
+        chatController.dataSource = dataSource
+        chatController.messageSender = dataSource.messageSender
     }
     
     

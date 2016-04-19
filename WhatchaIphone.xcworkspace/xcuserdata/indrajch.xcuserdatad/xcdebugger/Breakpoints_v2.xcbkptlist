@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WhatchaIphone/WhatchaChatViewController.swift"
@@ -15,8 +15,496 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
             endingLineNumber = "23"
+            landmarkName = "WhatchaChatViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.(baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).getter : WhatchaIphone.BaseMessageHandler"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772225.783323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.(baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).getter : WhatchaIphone.BaseMessageHandler"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772225.783841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.(baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).setter : WhatchaIphone.BaseMessageHandler"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772225.784121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.init (WhatchaIphone.WhatchaChatViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; WhatchaIphone.WhatchaChatViewController"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772225.784358"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "250">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.init (WhatchaIphone.WhatchaChatViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WhatchaIphone.WhatchaChatViewController&gt;"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772225.784591"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.((baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).getter : WhatchaIphone.BaseMessageHandler).(closure #1)"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772225.784868"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770255.955779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "WhatchaChatViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770259.5244"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770264.908967"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "baseMessageHandler"
             landmarkType = "19">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770268.478906"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "WhatchaChatViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770278.306535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "createChatInputView()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770280.815105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "configureChatInputBar(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770283.694979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "createPresenterBuilders()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770290.06812"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "createChatInputItems()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770292.088661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "createTextInputItem()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482770293.272343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "createPhotoInputItem()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Chatto/Chatto/Source/ChatController/ChatViewController.swift"
+            timestampString = "482771573.96837"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Chatto/Chatto/Source/ChatController/ChatViewController.swift"
+            timestampString = "482771585.197582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "addCollectionView()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Chatto/Chatto/Source/ChatController/ChatViewController.swift"
+            timestampString = "482771681.568368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "createPresenterBuilders()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Chatto/ChattoAdditions/Source/Chat Items/TextMessages/TextMessagePresenterBuilder.swift"
+            timestampString = "482772122.787356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "init(viewModelBuilder:interactionHandler:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/WhatchaChatViewController.swift"
+            timestampString = "482772222.726629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "baseMessageHandler"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.(baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).getter : WhatchaIphone.BaseMessageHandler"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772222.729497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.(baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).getter : WhatchaIphone.BaseMessageHandler"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772222.729894"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.(baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).setter : WhatchaIphone.BaseMessageHandler"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772222.730166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.init (WhatchaIphone.WhatchaChatViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; WhatchaIphone.WhatchaChatViewController"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772222.730517"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "250">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.init (WhatchaIphone.WhatchaChatViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WhatchaIphone.WhatchaChatViewController&gt;"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772222.730795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "161">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhatchaIphone.WhatchaChatViewController.((baseMessageHandler in _2331996A3A33B610FEA277FAF8F9FC75).getter : WhatchaIphone.BaseMessageHandler).(closure #1)"
+                  moduleName = "WhatchaIphone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indrajch/git/private_project/WhatchaIphone/WhatchaIphone/WhatchaChatViewController.swift"
+                  timestampString = "482772222.730965"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/UserActionHandlers.swift"
+            timestampString = "482772292.265962"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "userDidTapOnFailIcon(viewModel:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/UserActionHandlers.swift"
+            timestampString = "482772293.701295"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "userDidTapOnBubble(viewModel:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/UserActionHandlers.swift"
+            timestampString = "482772294.837486"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "userDidLongPressOnBubble(viewModel:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhatchaIphone/ChatListViewController.swift"
+            timestampString = "482773449.838239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

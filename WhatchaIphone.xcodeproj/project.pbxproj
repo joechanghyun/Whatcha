@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		712446BCC93F2954AB46BFF8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78736D976BC56B5BA4DD4BF /* Pods.framework */; };
+		8734C9311CC68CFE0025B490 /* JTPK288.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8734C9301CC68CFE0025B490 /* JTPK288.jpg */; };
 		8781A9A11CB55C8100015E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9A01CB55C8100015E8C /* AppDelegate.swift */; };
 		8781A9A31CB55C8100015E8C /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8781A9A21CB55C8100015E8C /* StartController.swift */; };
 		8781A9A61CB55C8100015E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8781A9A41CB55C8100015E8C /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8734C9301CC68CFE0025B490 /* JTPK288.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JTPK288.jpg; sourceTree = "<group>"; };
 		8781A99D1CB55C8100015E8C /* WhatchaIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatchaIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8781A9A01CB55C8100015E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8781A9A21CB55C8100015E8C /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		8776A5821CBD5E790072F483 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				8734C9301CC68CFE0025B490 /* JTPK288.jpg */,
 			);
 			name = resource;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				8781A9D41CB55D3400015E8C /* JTPK288.jpg in Resources */,
 				8781A9A81CB55C8100015E8C /* Assets.xcassets in Resources */,
 				8781A9D21CB55D1200015E8C /* 세돌아...내가복수해줄께_files in Resources */,
+				8734C9311CC68CFE0025B490 /* JTPK288.jpg in Resources */,
 				8781A9D01CB55D0800015E8C /* 세돌아...내가복수해줄께.html in Resources */,
 				8781A9A61CB55C8100015E8C /* Main.storyboard in Resources */,
 			);
